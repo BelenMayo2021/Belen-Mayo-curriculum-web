@@ -248,7 +248,16 @@ nav{
 
 }
 
+.linkboton{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
 
+.linkboton:hover{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
 
 
 
