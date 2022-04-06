@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./navbar.css" />
+
+    <title>Belen Mayo</title>
+  </head>
+  <body>
+    <nav>
+      <button class="border nav-boton" onclick="accion()">MENU</button>
+      <a href="#" class="border nav-enlace noresponsive">Inicio</a>
+      <a href="#curriculum" class="border nav-enlace noresponsive"
+        >Curriculum</a
+      >
+      <a href="#sobremi" class="border nav-enlace noresponsive">Sobre mi</a>
+      <a href="#portfolio" class="border nav-enlace noresponsive">Proyectos</a>
+    </nav>
+
+    <section class="wave">
+      <div class="container">
+        <div class="row">
+          <div class="foto">
+            <img src="./img/bel.jpg" width="155" alt="Carlos Arturo" />
+          </div>
+          <div class="tituloheader">
+            <h2 class="titulo">Belen Mayo</h2>
+            <h1 class="titulo">Front end Developer</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="rowdibujos">
+        <div class="dibujos col-12 col-sm-12 col-md-4">
+          <img class="card-img-top img-fluid" src="./img/D3.svg" alt="" />
+        </div>
+
+        <div class="col-12 col-sm-8 col-md-4">
+          <div class="sobremibloque">
+            <h2 id="sobremi" class="subtitulo">SOBRE MI</h2>
+            <p class="textosecund">
+              Hola!! mi nombre es Belen, soy de Córdoba, Argentina. Actualmente
+              me dedico al diseño de sitios webs a través del sistema de gestión
+              de contenidos (CMD) WordPress. Ésto fue el puntapié inicial para
+              comenzar mis estudios como Front end Developer.
+            </p>
+          </div>
+        </div>
+
+        <div class="dibujos col-12 col-sm-12 col-md-4">
+          <img class="card-img-top img-fluid" src="./img/D2.svg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row bloquesobremi">
+        <div class="col-12 col-md-12 col-lg-8 formacionbloque">
+          <h2 class="subtituloformacion">FORMACION</h2>
+          <!-- ------------------------ INICIO ACORDEON--------------------------- -->
+          <div class="accordion background-color" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button
+                  class="accordion-button collapsed fs-5"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="true" 
+                  aria-controls="flush-collapseOne"
+                >
+                  Front End Developer
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  UTN.BA - Facultad Regional Buenos Aires <br>
+                  <code>Inicio: Enero 2021 - Fin: Mayo 2022</code>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ------------------------ FIN ACORDEON--------------------------- -->
+          <!-- ------------------------ INICIO ACORDEON--------------------------- -->
+                    <div class="accordion background-color" id="accordionFlushExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                          <button
+                            class="accordion-button collapsed fs-5"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne"
+                            aria-expanded="false" 
+                            aria-controls="flush-collapseOne"
+                          >
+                            Full Stack Developer
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapseOne"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="flush-headingOne"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div class="accordion-body">
+                            Diplomatura - UTN.BA - Facultad Regional Buenos Aires <br>
+                            <code>Inicio: Feb. 2021 Fin: Ene. 2022</code>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+        <!-- ------------------------ FIN ACORDEON--------------------------- -->
+                  <!-- ------------------------ INICIO ACORDEON--------------------------- -->
+                  <div class="accordion background-color" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button
+                          class="accordion-button collapsed fs-5"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne"
+                          aria-expanded="false" 
+                          aria-controls="flush-collapseOne"
+                        >
+                          Arquitecta
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseOne"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div class="accordion-body">
+                          Titulo de Grado - UNC - Facultad de Arquitectura, Urbanismo y Diseño (F.A.U.D.) <br>
+                          <code>Inicio: 2007 Finalizado: 2015</code>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+      <!-- ------------------------ FIN ACORDEON--------------------------- -->
+
+        </div><!-- ----- div class= formacionbloque---- -->
+
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="habilidadesbloque">
+            <h2 class="subtituloformacion hab">HABILIDADES</h2>
+            <div class="centrar-lista">
+              <ul class="list-group border-0">
+                <li class="list-group-item">Perseverante</li>
+                <li class="list-group-item">Organizada</li>
+                <li class="list-group-item">Creativa</li>
+                <li class="list-group-item">Responsable</li>
+                <li class="list-group-item">Proactiva</li>
+                <li class="list-group-item">Trabajo en equipo</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div><!-- ----div.bloquesobremi------ -->
+    </div><!-- ----div.container------ -->
+
+    <div class="container">
+      <div class="row iconos">
+        <div class="col-12 iconosneg">
+          <h2 class="subtituloformacion">OTROS SKILLS</h2>
+          <div class="cont">
+            <div class="card border-0" style="width: 9rem">
+              <img
+                src="./img/ICONOS/html5.svg"
+                class="card-img-top"
+                height="80px"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text text-center fs-4 fw-bold">HTML</p>
+              </div>
+            </div>
+            <div class="card border-0" style="width: 9rem">
+              <img
+                src="./img/ICONOS/css3.svg"
+                class="card-img-top"
+                height="80px"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text text-center fs-4 fw-bold">CSS</p>
+              </div>
+            </div>
+            <div class="card border-0" style="width: 11rem">
+              <img
+                src="./img/ICONOS/bootstrap.svg"
+                class="card-img-top"
+                height="70px"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text text-center fs-4 fw-bold">Bootstrap</p>
+              </div>
+            </div>
+            <div class="card border-0" style="width: 11rem">
+              <img
+                src="./img/ICONOS/js.svg"
+                class="card-img-top"
+                height="70px"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text text-center fs-4 fw-bold">JavaScript</p>
+              </div>
+            </div>
+            <div class="card border-0" style="width: 9rem">
+              <img
+                src="./img/ICONOS/react.svg"
+                class="card-img-top"
+                height="80px"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text text-center fs-4 fw-bold">React</p>
+              </div>
+            </div>
+            <div class="card border-0" style="width: 9rem">
+              <img
+                src="./img/ICONOS/database.svg"
+                class="card-img-top"
+                height="65px"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text text-center fs-4 fw-bold">Base de Datos</p>
+              </div>
+            </div>
+            <!--         <div class="card border-0" style="width: 11rem;">
+          <img src="./img/ICONOS/wordpress.svg" class="card-img-top" height="70px"  alt="...">
+          <div class="card-body">
+            <p class="card-text text-center fs-4 fw-bold">Wordpress</p>
+          </div>
+        </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row descargaboton">
+        <div id="curriculum" class="col-md-12 curriculumdesc">
+          <h2 class="subtituloformacion">DESCARGAR CURRICULUM</h2>
+
+          <div class="botondesc">
+            <button
+              class="botondescarga"
+              href="https://drive.google.com/file/d/1jKxIuIBgg-58K_MNI-N1ZDqfHyO5QLVd/view?usp=sharing"
+              class="descargar"
+            >
+              PDF Curriculum
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="portfolio" class="row portfoliocards">
+        <h2 class="subtituloformacion">PROYECTOS</h2>
+        <div class="card" style="width: 18rem">
+          <img src="./img/7.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <button class="botonvermas" href="https://www.google.com/?hl=es">
+              VER MAS
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img src="./img/7.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <button class="botonvermas" href="https://www.google.com/?hl=es">
+              VER MAS
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img src="./img/7.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <button class="botonvermas" href="https://www.google.com/?hl=es">
+              VER MAS
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img src="./img/7.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <button class="botonvermas" href="https://www.google.com/?hl=es">
+              VER MAS
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img src="./img/7.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <button class="botonvermas" href="https://www.google.com/?hl=es">
+              VER MAS
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img src="./img/7.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <button class="botonvermas" href="https://www.google.com/?hl=es">
+              VER MAS
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footerbloque">
+        <p>- BELEN MAYO - CÓRDOBA, ARGENTINA - 2022 - </p>
+      </div>
+
+<div class="contenedorfooter">
+        <div class="contactolinks col-12 col-sm-12 ">
+          <a href="https://www.linkedin.com/in/belenmayo-developer/">Linkedin</a>
+          <img src="./img/ICONOS/LINKEDIN.svg" alt="https://www.linkedin.com/in/belenmayo-developer/" height="30px">
+        </div>
+          <div class="contactolinks col-12 col-sm-12 ">
+          <a href="https://www.bem-web.com/">Sitio web ( Wordpress )</a>
+          <img src="./img/ICONOS/MI SITIO.svg" alt="https://www.bem-web.com/" height="30px">
+        </div>
+</div>
+
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      function accion() {
+        console.log("hola");
+        var ancla = document.getElementsByClassName("nav-enlace");
+        for (var i = 0; i < ancla.length; i++) {
+          ancla[i].classList.toggle("noresponsive");
+        }
+      }
+    </script>
+  </body>
+</html>
